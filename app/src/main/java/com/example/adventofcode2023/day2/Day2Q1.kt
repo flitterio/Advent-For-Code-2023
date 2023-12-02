@@ -1,5 +1,9 @@
 package com.example.adventofcode2023.day2
 
+/**
+ * DAY 2 QUESTION 1
+ * ANSWER: 2348
+ */
 object Day2Q1 {
     val maxRed = 12
     val maxGreen = 13

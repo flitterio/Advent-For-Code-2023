@@ -1,5 +1,9 @@
 package com.example.adventofcode2023.day2
 
+/**
+ * DAY 2 QUESTION 2
+ * Answer : 76008
+ */
 object Day2Q2 {
     fun run() {
         println("d2p2 ${parseRounds(GameData.games)}")

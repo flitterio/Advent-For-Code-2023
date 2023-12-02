@@ -1,5 +1,10 @@
 package com.example.adventofcode2023.day1
 
+/**
+ * DAY 1 PART 1 AND 2
+ * PART 1 ANSWER: 55621
+ * PART 2 ANSWER: 53592
+ */
 object Day1Q1 {
     private val values = listOf("mxmkjvgsdzfhseightonetwoeight7",
         "3five4s84four9rtbzllggz",
