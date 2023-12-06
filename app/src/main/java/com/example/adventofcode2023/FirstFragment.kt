@@ -9,6 +9,7 @@ import androidx.navigation.fragment.findNavController
 import com.example.adventofcode2023.databinding.FragmentFirstBinding
 import com.example.adventofcode2023.day2.Day2Q1
 import com.example.adventofcode2023.day2.Day2Q2
+import com.example.adventofcode2023.day3.Day3Q1
 
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.
@@ -36,7 +37,7 @@ class FirstFragment : Fragment() {
         binding.buttonFirst.setOnClickListener {
             findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
         }
-        Day2Q2.run()
+        Day3Q1.run()
     }
 
     override fun onDestroyView() {
